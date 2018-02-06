@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad10_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VRL-5x-lh0"/>
+                        <viewControllerLayoutGuide type="bottom" id="cIl-a8-NvS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bVp-fC-3Az">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exhibit-headers_sea-turtles-600x400-1" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-Ue-qUw">
+                                <rect key="frame" x="-44" y="17" width="1200" height="800"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="800" id="DSR-W6-Het"/>
+                                    <constraint firstAttribute="width" constant="1200" id="FNh-yM-o8Z"/>
+                                    <constraint firstAttribute="width" secondItem="EtH-Ue-qUw" secondAttribute="height" multiplier="3:2" id="KJj-qV-Jgj"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="800" id="mvW-2X-2bI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1200" id="xWk-ED-Zhg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98994949993817838" green="1" blue="0.94593761424308642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EtH-Ue-qUw" secondAttribute="trailing" constant="-44" id="0vN-jg-pHf"/>
+                            <constraint firstItem="cIl-a8-NvS" firstAttribute="top" secondItem="EtH-Ue-qUw" secondAttribute="bottom" constant="17" id="6Zm-KV-Xu8"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="centerY" secondItem="bVp-fC-3Az" secondAttribute="centerY" id="BU8-z3-8mB"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="leading" secondItem="bVp-fC-3Az" secondAttribute="leading" constant="-44" id="Hl5-pV-Kau"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="leading" secondItem="bVp-fC-3Az" secondAttribute="leading" constant="-44" id="MMv-cY-a7U"/>
+                            <constraint firstAttribute="trailing" secondItem="EtH-Ue-qUw" secondAttribute="trailing" constant="-44" id="XB1-Pf-VK6"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="top" secondItem="bVp-fC-3Az" secondAttribute="top" constant="17" id="hWZ-Xv-IPb"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="top" secondItem="bVp-fC-3Az" secondAttribute="top" constant="17" id="j5X-7g-Mq7"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="centerY" secondItem="bVp-fC-3Az" secondAttribute="centerY" id="lDP-xz-qI9"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="centerX" secondItem="bVp-fC-3Az" secondAttribute="centerX" id="p1D-88-pHm"/>
+                            <constraint firstItem="cIl-a8-NvS" firstAttribute="top" secondItem="EtH-Ue-qUw" secondAttribute="bottom" constant="17" id="sDn-hO-ryQ"/>
+                            <constraint firstItem="EtH-Ue-qUw" firstAttribute="centerX" secondItem="bVp-fC-3Az" secondAttribute="centerX" id="vOG-6I-4Ws"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16.726618705035971" y="86.330935251798564"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exhibit-headers_sea-turtles-600x400-1" width="600" height="400"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
